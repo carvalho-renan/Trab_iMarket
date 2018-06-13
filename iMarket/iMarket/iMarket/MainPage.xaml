@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:iMarket"
+             x:Class="iMarket.MainPage">
+
+    <StackLayout BackgroundColor="#253954" VerticalOptions="Center" Spacing="30">
+
+        <Image Source="Carrinho.jpg" BackgroundColor="#253954" x:Name="Foto"/>
+        <Entry Placeholder="Digite o nome do Supermercado" BackgroundColor="#253954" TextColor="#FFFFFF"/>
+        <Button Text="Buscar" TextColor="#FFFFFF" BackgroundColor="#253954" x:Name="Botao"/>
+
+    </StackLayout>
+	
+
+</ContentPage>
