@@ -13,5 +13,10 @@ namespace iMarket
 		{
 			InitializeComponent();
 		}
+        public void mudarparapag01(object sender, EventArgs args)
+        {
+            App.Current.MainPage = new iMarket.tela01();
+        }
+
 	}
 }
