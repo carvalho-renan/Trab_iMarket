@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="iMarket.Tela_04">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#253954" Padding="40" Spacing="30">
+            <Label Text="Supermercado C" FontSize="Large" TextColor="White" HorizontalOptions="CenterAndExpand" />
+            <Button Text="Voltar" VerticalOptions="EndAndExpand" Clicked="voltarpag01"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

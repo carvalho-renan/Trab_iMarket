@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="iMarket.Tela_06">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#253954" Padding="40" Spacing="30">
+            <Label Text="Gerente" HorizontalOptions="CenterAndExpand" TextColor="White" FontSize="20" />
+            <Entry Placeholder="Código do Gerente" HorizontalOptions="Center" PlaceholderColor="Black" TextColor="White"/>
+            <Button Text="Login" HorizontalOptions="Center"/>
+            <Button Text="Voltar" VerticalOptions="EndAndExpand" Clicked="voltarpaginicial"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

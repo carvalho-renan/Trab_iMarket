@@ -15,8 +15,12 @@ namespace iMarket
 		}
         public void mudarparapag01(object sender, EventArgs args)
         {
-            App.Current.MainPage = new iMarket.tela01();
+            App.Current.MainPage = new iMarket.Tela_01();
+        }
+        public void mudarparagerente(object sender, EventArgs args)
+        {
+            App.Current.MainPage = new iMarket.Tela_06();
         }
 
-	}
+    }
 }

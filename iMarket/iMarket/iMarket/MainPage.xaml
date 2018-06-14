@@ -6,9 +6,10 @@
 
     <StackLayout BackgroundColor="#253954" Padding="40" Spacing="30">
 
-        <Image Source="Carrinho.jpg" BackgroundColor="#253954" x:Name="Foto"/>
-        <Entry Placeholder="Digite o nome do Supermercado" BackgroundColor="#253954" TextColor="#FFFFFF"/>
-        <Button Text="Buscar" TextColor="#FFFFFF" BackgroundColor="#253954" Clicked="mudarparapag01"/>
+        <Image Source="Carrinho.jpg" BackgroundColor="#253954"/>
+        <Label Text="iMarket" TextColor="#FECF00" FontSize="40" HorizontalOptions="Center"/>
+        <Button Text="Buscar" TextColor="#FFFFFF" BackgroundColor="#182436" Clicked="mudarparapag01"/>
+        <Button Text="Gerente" TextColor="#FFFFFF" BackgroundColor="#182436" Clicked="mudarparagerente"/>
 
     </StackLayout>
 	

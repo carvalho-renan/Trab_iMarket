@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace iMarket
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class tela01 : ContentPage
+	public partial class Tela_06 : ContentPage
 	{
-		public tela01 ()
+		public Tela_06 ()
 		{
 			InitializeComponent ();
 		}
@@ -20,5 +20,5 @@ namespace iMarket
         {
             App.Current.MainPage = new iMarket.MainPage();
         }
-	}
+    }
 }
