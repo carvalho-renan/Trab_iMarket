@@ -16,19 +16,19 @@ namespace iMarket
 		{
 			InitializeComponent ();
 		}
-        public void voltarpaginicial(object sender, EventArgs args)
+        public void Voltarpaginicial(object sender, EventArgs args)
         {
             App.Current.MainPage = new iMarket.MainPage();
         }
-        public void mudarparapag02(object sender, EventArgs args)
+        public void Mudarparapag02(object sender, EventArgs args)
         {
             App.Current.MainPage = new iMarket.Tela_02();
         }
-        public void mudarparapag03(object sender, EventArgs args)
+        public void Mudarparapag03(object sender, EventArgs args)
         {
             App.Current.MainPage = new iMarket.Tela_03();
         }
-        public void mudarparapag04(object sender, EventArgs args)
+        public void Mudarparapag04(object sender, EventArgs args)
         {
             App.Current.MainPage = new iMarket.Tela_04();
         }

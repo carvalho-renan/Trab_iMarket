@@ -4,10 +4,27 @@
              x:Class="iMarket.Tela_06">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#253954" Padding="40" Spacing="30">
-            <Label Text="Gerente" FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White"/>
-            <Entry x:Name="codigo" IsPassword="True" Placeholder="Código do Gerente" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" PlaceholderColor="Gray" TextColor="White"/>
-            <Button Text="Login" TextColor="White" BackgroundColor="#182436" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Clicked="Login"/>
-            <Button Text="Voltar" VerticalOptions="EndAndExpand" Clicked="Voltarpaginicial"/>
+            <Label Text="Gerente" 
+                   FontSize="25" 
+                   HorizontalOptions="CenterAndExpand" 
+                   VerticalOptions="CenterAndExpand" 
+                   TextColor="White"/>
+            <Entry x:Name="codigo" 
+                   IsPassword="True" 
+                   Placeholder="Código do Gerente" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="CenterAndExpand" 
+                   PlaceholderColor="Gray" 
+                   TextColor="White"/>
+            <Button Text="Login" 
+                    TextColor="White" 
+                    BackgroundColor="#182436" 
+                    HorizontalOptions="FillAndExpand" 
+                    VerticalOptions="CenterAndExpand" 
+                    Clicked="Login"/>
+            <Button Text="Voltar" 
+                    VerticalOptions="EndAndExpand" 
+                    Clicked="Voltarpaginicial"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

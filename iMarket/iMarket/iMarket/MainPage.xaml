@@ -5,13 +5,19 @@
              x:Class="iMarket.MainPage">
 
     <StackLayout BackgroundColor="#253954" Padding="40" Spacing="30">
-
-        <Image Source="Carrinho.jpg" BackgroundColor="#253954"/>
-        <Label Text="iMarket" TextColor="#FECF00" FontSize="40" HorizontalOptions="Center"/>
-        <Button Text="Buscar" TextColor="#FFFFFF" BackgroundColor="#182436" Clicked="mudarparapag01"/>
-        <Button Text="Gerente" TextColor="#FFFFFF" BackgroundColor="#182436" Clicked="mudarparagerente"/>
-
+        <Image Source="Carrinho.jpg"
+               BackgroundColor="#253954"/>
+        <Label Text="iMarket"
+               TextColor="#FECF00"
+               FontSize="40"
+               HorizontalOptions="Center"/>
+        <Button Text="Buscar"
+                TextColor="#FFFFFF"
+                BackgroundColor="#182436" 
+                Clicked="Mudarparapag01"/>
+        <Button Text="Gerente" 
+                TextColor="#FFFFFF" 
+                BackgroundColor="#182436" 
+                Clicked="Mudarparagerente"/>
     </StackLayout>
-	
-
 </ContentPage>

@@ -4,11 +4,28 @@
              x:Class="iMarket.Tela_01">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#253954" Padding="40" Spacing="30">
-            <Label Text="Escolha o Supermercado Abaixo:" HorizontalOptions="FillAndExpand" TextColor="White" FontSize="20"/>
-            <Button Text="Supermercado A" TextColor="#FFFFFF" BackgroundColor="#182436" VerticalOptions="Center" Clicked="mudarparapag02"/>
-            <Button Text="Supermercado B" TextColor="#FFFFFF" BackgroundColor="#182436" VerticalOptions="Center" Clicked="mudarparapag03"/>
-            <Button Text="Supermercado C" TextColor="#FFFFFF" BackgroundColor="#182436" VerticalOptions="Center" Clicked="mudarparapag04"/>
-            <Button Text="Voltar" VerticalOptions="EndAndExpand" Clicked="voltarpaginicial"/>
+            <Label Text="Escolha o Supermercado Abaixo:" 
+                   HorizontalOptions="FillAndExpand" 
+                   TextColor="White" 
+                   FontSize="20"/>
+            <Button Text="Supermercado A" 
+                    TextColor="#FFFFFF" 
+                    BackgroundColor="#182436" 
+                    VerticalOptions="Center" 
+                    Clicked="Mudarparapag02"/>
+            <Button Text="Supermercado B" 
+                    TextColor="#FFFFFF" 
+                    BackgroundColor="#182436" 
+                    VerticalOptions="Center" 
+                    Clicked="Mudarparapag03"/>
+            <Button Text="Supermercado C" 
+                    TextColor="#FFFFFF" 
+                    BackgroundColor="#182436"
+                    VerticalOptions="Center" 
+                    Clicked="Mudarparapag04"/>
+            <Button Text="Voltar" 
+                    VerticalOptions="EndAndExpand" 
+                    Clicked="Voltarpaginicial"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

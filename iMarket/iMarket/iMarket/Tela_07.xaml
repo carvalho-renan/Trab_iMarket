@@ -4,8 +4,13 @@
              x:Class="iMarket.Tela_07">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#253954" Padding="40" Spacing="30">
-            <Label Text="Tela 07" FontSize="Large" TextColor="White" HorizontalOptions="CenterAndExpand" />
-            <Button Text="Voltar" VerticalOptions="EndAndExpand" Clicked="voltarpag06"/>
+            <Label Text="Gerente A" 
+                   FontSize="Large" 
+                   TextColor="White" 
+                   HorizontalOptions="CenterAndExpand" />
+            <Button Text="Sair" 
+                    VerticalOptions="EndAndExpand" 
+                    Clicked="Voltarpag06"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

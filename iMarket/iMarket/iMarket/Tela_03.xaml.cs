@@ -16,7 +16,7 @@ namespace iMarket
 		{
 			InitializeComponent ();
 		}
-        public void voltarpag01(object sender, EventArgs args)
+        public void Voltarpag01(object sender, EventArgs args)
         {
             App.Current.MainPage = new iMarket.Tela_01();
         }
