@@ -16,9 +16,10 @@ namespace iMarket
 		{
 			InitializeComponent ();
 		}
-        public void Voltarpaginicial(object sender, EventArgs args)
+        protected override bool OnBackButtonPressed()
         {
             App.Current.MainPage = new iMarket.MainPage();
+            return true;
         }
         private string senhagenrenteA = "123";
         private string senhagenrenteB = "456";

@@ -8,9 +8,6 @@
                    FontSize="Large" 
                    TextColor="White" 
                    HorizontalOptions="CenterAndExpand" />
-            <Button Text="Voltar" 
-                    VerticalOptions="EndAndExpand" 
-                    Clicked="Voltarpag01"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

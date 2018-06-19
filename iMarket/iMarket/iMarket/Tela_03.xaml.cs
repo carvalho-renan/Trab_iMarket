@@ -16,9 +16,10 @@ namespace iMarket
 		{
 			InitializeComponent ();
 		}
-        public void Voltarpag01(object sender, EventArgs args)
+        protected override bool OnBackButtonPressed()
         {
             App.Current.MainPage = new iMarket.Tela_01();
+            return true;
         }
     }
 }

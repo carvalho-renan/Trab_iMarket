@@ -22,9 +22,6 @@
                     HorizontalOptions="FillAndExpand" 
                     VerticalOptions="CenterAndExpand" 
                     Clicked="Login"/>
-            <Button Text="Voltar" 
-                    VerticalOptions="EndAndExpand" 
-                    Clicked="Voltarpaginicial"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

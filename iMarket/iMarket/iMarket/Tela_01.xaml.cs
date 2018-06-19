@@ -16,9 +16,10 @@ namespace iMarket
 		{
 			InitializeComponent ();
 		}
-        public void Voltarpaginicial(object sender, EventArgs args)
+        protected override bool OnBackButtonPressed ()
         {
             App.Current.MainPage = new iMarket.MainPage();
+            return true;
         }
         public void Mudarparapag02(object sender, EventArgs args)
         {
